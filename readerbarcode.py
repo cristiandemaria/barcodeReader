@@ -11,6 +11,9 @@ ctypes.windll.kernel32.SetDllDirectoryW(None)
 #print(ctypes.CDLL('libvlc.dll'))
 
 comparator = 'test'
+print("==== PROJETO INICIADO ====")
+print("Teclado:")
+print("p) parar\nWIN + S) Tirar print")
 while True: 
     try:
         if keyboard.is_pressed('p'):
